@@ -30,9 +30,6 @@ const useAxios = (): useAxios => {
       handleResponse?: (response: AxiosResponse) => void
     ) => {
       let token: string | null = null;
-      if (typeof window !== "undefined") {
-        token = localStorage.getItem("ACCESS_TOKEN");
-      }
       setError(null);
 
       try {

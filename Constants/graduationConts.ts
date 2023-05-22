@@ -17,3 +17,15 @@ export const USER_MGS = {
     OK_FRA: "Paz y salvo facultad ",
   },
 };
+
+export const FORM_CONST = {
+  WELCOME_MSG: "¡BIENVENIDO! ingresa el documento del estudiante a consultar:",
+  PLACEHOLDER: "Documento Del Estudiante",
+};
+
+export const NOT_FOUND_MSG =
+  "No se ha encontrado estudiante con ese documento.";
+
+export const DOCUMENT_NOT_GIVEN = "Por favor ingrese un documento.";
+
+export const GO_BACK = "← Regresar";
